@@ -1,7 +1,7 @@
 {
   "type": "flopack",
   "version": "1.2.0",
-  "created": "2020-11-02T21:14:48.092Z",
+  "created": "2020-11-02T21:15:22.804Z",
   "flags": {
     "auto-transform": true,
     "looseBooleans": true,
@@ -10,23 +10,18 @@
   },
   "data": {
     "flos": {
-      "cd49ac51-3fe0-42c7-8017-f9a00ca674b4": {
-        "id": "cd49ac51-3fe0-42c7-8017-f9a00ca674b4",
+      "e40a87d0-2e43-42a1-97a8-1880b7bf42b4": {
+        "id": "e40a87d0-2e43-42a1-97a8-1880b7bf42b4",
         "name": "Send Email Notifications with Office 365",
         "description": "",
         "data": {
           "id": null,
-          "uuid": "cd49ac51-3fe0-42c7-8017-f9a00ca674b4",
+          "uuid": "e40a87d0-2e43-42a1-97a8-1880b7bf42b4",
           "display": {
             "preview": [
               {
                 "module": "okta",
                 "name": "",
-                "kernel": true
-              },
-              {
-                "module": "string",
-                "name": "compose",
                 "kernel": true
               },
               {
@@ -421,7 +416,10 @@
                                 "ZsavC-ba-S": "okta",
                                 "ZmF9VWTdvt": "okta",
                                 "AXVdE0168h": "okta",
-                                "ogNUW90_LU": "okta"
+                                "ogNUW90_LU": "okta",
+                                "01OWkxHlY0": "okta",
+                                "BPrN2gy8I8": "okta",
+                                "o1p5GiwIiL": "okta"
                               }
                             },
                             "tree": {
@@ -710,7 +708,8 @@
                                             "index": 8
                                           },
                                           "required": false,
-                                          "flags": "d"
+                                          "flags": "d",
+                                          "_used": true
                                         },
                                         "zd7YFZetk-W": {
                                           "id": "zd7YFZetk-W",
@@ -990,154 +989,9 @@
                                 },
                                 "pins": {
                                   "WIVM5InhwLe": {
-                                    "ogNUW90_LU": [
+                                    "o1p5GiwIiL": [
                                       {
-                                        "input": "pXY_-tnOcJ",
-                                        "transform": null
-                                      }
-                                    ]
-                                  }
-                                }
-                              },
-                              {
-                                "joins": {},
-                                "address": "root:kernel:string:0.0.1:compose",
-                                "parents": {
-                                  "version": {
-                                    "address": "root:kernel:string:0.0.1",
-                                    "key": "0.0.1",
-                                    "data": {
-                                      "name": "0.0.1"
-                                    }
-                                  },
-                                  "channel": {
-                                    "address": "root:kernel:string",
-                                    "key": "string",
-                                    "data": {
-                                      "name": "string"
-                                    }
-                                  }
-                                },
-                                "uuid": "tt_axZtsS",
-                                "branches": {},
-                                "node": {
-                                  "key": "compose",
-                                  "data": {
-                                    "name": "Compose"
-                                  },
-                                  "model": {
-                                    "type": "method",
-                                    "_v": 2,
-                                    "key": "compose",
-                                    "executable": false,
-                                    "displayed": true,
-                                    "async": false,
-                                    "cooperative": false,
-                                    "mirrored": false,
-                                    "inlined": false,
-                                    "dependencies": [],
-                                    "timeout": 90000,
-                                    "idempotent": false,
-                                    "monitor": false,
-                                    "webhook": false,
-                                    "webhookList": false,
-                                    "webhookConditions": false,
-                                    "mobile": false,
-                                    "hooks": {},
-                                    "policy": {
-                                      "error": {
-                                        "type": "finish"
-                                      }
-                                    },
-                                    "metadata": {
-                                      "id": null,
-                                      "name": "Compose",
-                                      "description": "Enter free form text and optionally drag fields into your text like a mail merge."
-                                    },
-                                    "meta": {},
-                                    "config": null,
-                                    "partnerChannelKeys": null,
-                                    "inputs": {
-                                      "extensible": true,
-                                      "rules": {
-                                        "*": {
-                                          "types": [
-                                            "string"
-                                          ],
-                                          "collection": false
-                                        }
-                                      },
-                                      "data": {
-                                        "gGwM6j4b8x": {
-                                          "id": "gGwM6j4b8x",
-                                          "group": null,
-                                          "key": "_text_",
-                                          "value": {
-                                            "type": "string",
-                                            "collection": false,
-                                            "data": "Hello, the user with username{{{DykOkDlY-}}}  was suspended in Okta.",
-                                            "available": [],
-                                            "error": false
-                                          },
-                                          "required": true,
-                                          "ref": false,
-                                          "metadata": {
-                                            "index": 0
-                                          },
-                                          "flags": "d"
-                                        },
-                                        "wlVnEeg9gE": {
-                                          "id": "wlVnEeg9gE",
-                                          "group": null,
-                                          "key": "DykOkDlY-",
-                                          "value": {
-                                            "error": false,
-                                            "proxy": false,
-                                            "check": false,
-                                            "type": "string",
-                                            "collection": false,
-                                            "data": "",
-                                            "available": [
-                                              "string"
-                                            ]
-                                          },
-                                          "required": false,
-                                          "ref": false,
-                                          "metadata": {
-                                            "index": 1
-                                          },
-                                          "flags": "d"
-                                        }
-                                      }
-                                    },
-                                    "outputs": {
-                                      "extensible": false,
-                                      "data": {
-                                        "XVAJOLbUYi": {
-                                          "id": "XVAJOLbUYi",
-                                          "group": null,
-                                          "key": "output",
-                                          "value": {
-                                            "type": "string",
-                                            "collection": false,
-                                            "data": ""
-                                          },
-                                          "ref": false,
-                                          "metadata": {
-                                            "index": 0
-                                          },
-                                          "_used": true
-                                        }
-                                      }
-                                    },
-                                    "runtime": {}
-                                  }
-                                },
-                                "pins": {
-                                  "XVAJOLbUYi": {
-                                    "9lhT3VQiu": [
-                                      {
-                                        "input": "IIqAH58OFd",
+                                        "input": "x3B1ggfflB",
                                         "transform": null
                                       }
                                     ]
@@ -1422,7 +1276,7 @@
                                     }
                                   }
                                 },
-                                "uuid": "ogNUW90_LU",
+                                "uuid": "o1p5GiwIiL",
                                 "branches": {},
                                 "node": {
                                   "key": "expand",
@@ -1464,8 +1318,8 @@
                                     "inputs": {
                                       "extensible": false,
                                       "data": {
-                                        "pXY_-tnOcJ": {
-                                          "id": "pXY_-tnOcJ",
+                                        "x3B1ggfflB": {
+                                          "id": "x3B1ggfflB",
                                           "group": null,
                                           "key": "object",
                                           "value": {
@@ -1525,9 +1379,9 @@
                                         }
                                       },
                                       "data": {
-                                        "efQPWrMkEv": {
-                                          "id": "efQPWrMkEv",
-                                          "group": "rEM-VCze2T",
+                                        "T-WZDCT66JZ": {
+                                          "id": "T-WZDCT66JZ",
+                                          "group": "SVti0cyeBM",
                                           "key": "key",
                                           "value": {
                                             "error": false,
@@ -1547,9 +1401,9 @@
                                             "srcOutputId": "WIVM5InhwLe"
                                           }
                                         },
-                                        "DuQnp9wRq_": {
-                                          "id": "DuQnp9wRq_",
-                                          "group": "rEM-VCze2T",
+                                        "R8CzXmDJSke": {
+                                          "id": "R8CzXmDJSke",
+                                          "group": "SVti0cyeBM",
                                           "key": "value",
                                           "value": {
                                             "error": false,
@@ -1574,10 +1428,10 @@
                                   }
                                 },
                                 "pins": {
-                                  "DuQnp9wRq_": {
-                                    "tt_axZtsS": [
+                                  "R8CzXmDJSke": {
+                                    "9lhT3VQiu": [
                                       {
-                                        "input": "wlVnEeg9gE",
+                                        "input": "IIqAH58OFd",
                                         "transform": null
                                       }
                                     ]
@@ -1587,25 +1441,21 @@
                             ],
                             "model": {},
                             "orderings": {
-                              "bAikQZ_-QO": [
+                              "FYGe3-Sb0g": [
                                 "M57q1LI9l2",
-                                "tt_axZtsS"
-                              ],
-                              "xMb7_ZOIvH": [
-                                "tt_axZtsS",
                                 "9lhT3VQiu"
                               ],
-                              "HQbCzpKcop": [
+                              "feHL9p3TvZ": [
                                 "M57q1LI9l2",
-                                "ogNUW90_LU"
+                                "o1p5GiwIiL"
                               ],
-                              "nlll2VPN3b": [
-                                "ogNUW90_LU",
-                                "tt_axZtsS"
+                              "C8-N810NAt0": [
+                                "o1p5GiwIiL",
+                                "9lhT3VQiu"
                               ],
-                              "bIHP3D4j1Y": [
-                                "ogNUW90_LU",
-                                "ogNUW90_LU"
+                              "-DaD-QLp6lD": [
+                                "o1p5GiwIiL",
+                                "o1p5GiwIiL"
                               ]
                             },
                             "security_level": "high",
@@ -1661,7 +1511,7 @@
           ],
           "model": {},
           "orderings": {
-            "S3s43B5Va": [
+            "pbYh-aVDGd": [
               "r_mc-heU7",
               "17giYNRUbJ"
             ]
@@ -1671,7 +1521,7 @@
           "log": true,
           "inheritLog": true,
           "scheduled": false,
-          "group": "392fdc20-c0b5-4075-aad8-f49c67864a98",
+          "group": "7685666f-f5b8-42bc-9b1a-d1398efdfda2",
           "templateName": null,
           "connector_method_meta": {
             "inputs": {},
@@ -1684,8 +1534,8 @@
     "configs": {},
     "tables": {},
     "groups": {
-      "392fdc20-c0b5-4075-aad8-f49c67864a98": {
-        "id": "392fdc20-c0b5-4075-aad8-f49c67864a98",
+      "7685666f-f5b8-42bc-9b1a-d1398efdfda2": {
+        "id": "7685666f-f5b8-42bc-9b1a-d1398efdfda2",
         "data": {
           "name": "Send Email Notifications with Office 365",
           "description": "",
