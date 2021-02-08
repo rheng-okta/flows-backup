@@ -1,0 +1,225 @@
+{
+  "type": "flopack",
+  "version": "1.3.0",
+  "created": "2021-02-08T19:57:38.609Z",
+  "flags": {
+    "auto-transform": true,
+    "looseBooleans": true,
+    "looseStrings": true,
+    "looseNulls": true
+  },
+  "data": {
+    "flos": {
+      "e27a2cc9-d5c7-425d-8bd7-295c2e45af2d": {
+        "id": "e27a2cc9-d5c7-425d-8bd7-295c2e45af2d",
+        "name": "Exported Flow",
+        "description": "",
+        "data": {
+          "id": null,
+          "uuid": "e27a2cc9-d5c7-425d-8bd7-295c2e45af2d",
+          "display": {
+            "preview": [
+              {
+                "module": "control",
+                "name": "noop",
+                "kernel": true
+              },
+              {
+                "module": "control",
+                "name": "comment",
+                "kernel": true
+              }
+            ],
+            "isCallable": false
+          },
+          "tree": {
+            "id": 1,
+            "name": "all"
+          },
+          "methods": [
+            {
+              "joins": {},
+              "address": "root:kernel:control:0.0.1:noop",
+              "parents": {
+                "version": {
+                  "address": "root:kernel:control:0.0.1",
+                  "key": "0.0.1",
+                  "data": {
+                    "name": "0.0.1"
+                  }
+                },
+                "channel": {
+                  "address": "root:kernel:control",
+                  "key": "control",
+                  "data": {
+                    "name": "control"
+                  }
+                }
+              },
+              "uuid": "KZ5VDiZH8N",
+              "branches": {},
+              "node": {
+                "key": "noop",
+                "data": {
+                  "name": "Noop"
+                },
+                "model": {
+                  "type": "method",
+                  "_v": 2,
+                  "key": "noop",
+                  "executable": false,
+                  "displayed": true,
+                  "async": false,
+                  "cooperative": false,
+                  "mirrored": false,
+                  "inlined": false,
+                  "dependencies": [],
+                  "timeout": 90000,
+                  "idempotent": false,
+                  "monitor": false,
+                  "webhook": false,
+                  "webhookList": false,
+                  "webhookConditions": false,
+                  "mobile": false,
+                  "hooks": {},
+                  "policy": {
+                    "error": {
+                      "type": "finish"
+                    }
+                  },
+                  "metadata": {
+                    "id": null,
+                    "name": "Noop",
+                    "description": "No-op. Does not do anything."
+                  },
+                  "meta": {},
+                  "config": null,
+                  "partnerChannelKeys": null,
+                  "inputs": {
+                    "extensible": true,
+                    "data": {}
+                  },
+                  "outputs": {
+                    "extensible": true,
+                    "data": {}
+                  },
+                  "runtime": {}
+                }
+              },
+              "pins": {}
+            },
+            {
+              "joins": {},
+              "address": "root:kernel:control:0.0.1:comment",
+              "parents": {
+                "version": {
+                  "address": "root:kernel:control:0.0.1",
+                  "key": "0.0.1",
+                  "data": {
+                    "name": "0.0.1"
+                  }
+                },
+                "channel": {
+                  "address": "root:kernel:control",
+                  "key": "control",
+                  "data": {
+                    "name": "control"
+                  }
+                }
+              },
+              "uuid": "zhKR1UDbe",
+              "branches": {},
+              "node": {
+                "key": "comment",
+                "data": {
+                  "name": "Comment"
+                },
+                "model": {
+                  "type": "method",
+                  "_v": 2,
+                  "key": "comment",
+                  "executable": false,
+                  "displayed": true,
+                  "async": false,
+                  "cooperative": false,
+                  "mirrored": false,
+                  "inlined": false,
+                  "dependencies": [],
+                  "timeout": 90000,
+                  "idempotent": false,
+                  "monitor": false,
+                  "webhook": false,
+                  "webhookList": false,
+                  "webhookConditions": false,
+                  "mobile": false,
+                  "hooks": {},
+                  "policy": {
+                    "error": {
+                      "type": "finish"
+                    }
+                  },
+                  "metadata": {
+                    "id": null,
+                    "name": "Comment",
+                    "description": "Leave a comment."
+                  },
+                  "meta": {},
+                  "config": null,
+                  "partnerChannelKeys": null,
+                  "inputs": {
+                    "extensible": false,
+                    "data": {}
+                  },
+                  "outputs": {
+                    "extensible": false,
+                    "data": {}
+                  },
+                  "runtime": {},
+                  "display": {},
+                  "comments": {
+                    "title": "Exported Flow",
+                    "markdown": "This is a placeholder for a flow you would export"
+                  }
+                }
+              },
+              "pins": {}
+            }
+          ],
+          "model": {},
+          "orderings": {
+            "wd1Ug_m4K": [
+              "KZ5VDiZH8N",
+              "zhKR1UDbe"
+            ]
+          },
+          "cron": {},
+          "security_level": null,
+          "log": false,
+          "inheritLog": true,
+          "scheduled": false,
+          "group": "c4e759a5-d61c-4647-97f1-b31990c3e736",
+          "templateName": null,
+          "connector_method_meta": {
+            "inputs": {},
+            "outputs": {},
+            "options": {}
+          },
+          "monitor_flo": false
+        }
+      }
+    },
+    "configs": {},
+    "tables": {},
+    "groups": {
+      "c4e759a5-d61c-4647-97f1-b31990c3e736": {
+        "id": "c4e759a5-d61c-4647-97f1-b31990c3e736",
+        "data": {
+          "name": "Versioning Template",
+          "description": "",
+          "media_uri": ""
+        }
+      }
+    }
+  },
+  "checksum": "5bacbb3814d25e9443087df200f4589988e084171668e3bf85d3e8e336877300"
+}
