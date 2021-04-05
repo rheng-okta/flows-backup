@@ -1,7 +1,7 @@
 {
   "type": "flopack",
   "version": "1.3.0",
-  "created": "2021-04-05T18:42:36.897Z",
+  "created": "2021-04-05T19:49:21.599Z",
   "flags": {
     "auto-transform": true,
     "looseBooleans": true,
@@ -10,13 +10,13 @@
   },
   "data": {
     "flos": {
-      "610cfff6-7ed2-4f54-bc05-79ffb1822e8f": {
-        "id": "610cfff6-7ed2-4f54-bc05-79ffb1822e8f",
+      "7aca3b60-b7e7-4b64-9501-7cf31688d5b0": {
+        "id": "7aca3b60-b7e7-4b64-9501-7cf31688d5b0",
         "name": "Exported Notification Flow",
         "description": "",
         "data": {
           "id": null,
-          "uuid": "610cfff6-7ed2-4f54-bc05-79ffb1822e8f",
+          "uuid": "7aca3b60-b7e7-4b64-9501-7cf31688d5b0",
           "display": {
             "preview": [
               {
@@ -1866,7 +1866,7 @@
           "log": true,
           "inheritLog": true,
           "scheduled": false,
-          "group": "7de8be72-b867-417a-b66d-5cc640b2b252",
+          "group": "8ae2ba44-eba0-4423-9b3e-50227a4e64fa",
           "templateName": null,
           "connector_method_meta": {
             "inputs": {},
@@ -1880,8 +1880,8 @@
     "configs": {},
     "tables": {},
     "groups": {
-      "7de8be72-b867-417a-b66d-5cc640b2b252": {
-        "id": "7de8be72-b867-417a-b66d-5cc640b2b252",
+      "8ae2ba44-eba0-4423-9b3e-50227a4e64fa": {
+        "id": "8ae2ba44-eba0-4423-9b3e-50227a4e64fa",
         "data": {
           "name": "Versioning for Flows and Folders with Github",
           "description": "",
@@ -1890,5 +1890,5 @@
       }
     }
   },
-  "checksum": "98f0cbbc655030520cfa94951f7317812091b7b12d3cc421e6950df8fb494c3f"
+  "checksum": "1b42310d2de02b5fa251ce07c9dc5d1be052c7020496a3e58459d26ebeaa3b79"
 }
